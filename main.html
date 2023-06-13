@@ -19,12 +19,15 @@
 		</div>
 		<div>
            <label for="gender">Gender</label>
-			<input type="radio" id="gender" name="gender" required>
-			<input type="radio" id="gender" name="gender" required>
+		  <label for="gender">male</label>
+	    	<input type="radio" id="gender_male" name="gender" required>
+		  <label for="gender">female</label>
+			<input type="radio" id="gender_female" name="gender" required>
 		</div>
 		<div>
 			<label for="cars">Car Brands</label>
-			<select id="cars" required>
+			<select  name="cars" id="cars" required>
+				<option value=""  disabled selected>Please choose an option</option>
 				<option value="bmw">BMW</option>
 				<option value="audi">Audi</option>
 				<option value="mercedez">Mercedez</option>
